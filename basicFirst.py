@@ -30,5 +30,14 @@ print(burgerPrice*2)
 print(burgerPrice+friesPrice)
 #함수 - 명령을 저장
 
+print("----- 내장함수 : 이미 저장되어있는 함수 print같은거 -----")
+print("함수 정의 하기 ")
+def hello():
+    print("Hello")
+    print("Welcome to handcraft")
 
+hello()
+hello()
+hello()
 
+#파라미터
