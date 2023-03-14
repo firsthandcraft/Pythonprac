@@ -41,3 +41,22 @@ hello()
 hello()
 
 #파라미터
+def parameter(name):
+        print("Hello")
+        print(name)
+        print("Welcome")
+parameter("Chris")
+
+#여러개의 파라미터
+def printSum(num1, b, c):
+    print(num1+b+c)
+printSum(3,4,1)
+
+#return
+
+def getSquare(x):
+    return x*x
+y=getSquare(3)
+print(y)
+
+print(getSquare(3)+getSquare(4))
