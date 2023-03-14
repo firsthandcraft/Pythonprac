@@ -145,3 +145,21 @@ print("----- 이중 불린 -----")
 print(not not True)#T
 print(not not False)#F
 
+#type 함수
+print("----- type -----")
+print(type(3))#<class 'int'>
+print(type(3.0))#<class 'float'>
+print(type("3"))#<class 'str'>
+print(type("True"))#<class 'str'>
+print(type(True))#<class 'bool'>
+print(type(type))#<class 'type'>
+def hello():
+    print("Hello world!")
+print(type(hello))#<class 'function'>
+print(type(print))#내장함수 -> <class 'builtin_function_or_method'>
+
+print(int(2.5) + int(3.8) > int(str(1) + str(2)))#F
+print((12 >= 10 and not 3 > 4) or 3 ** 2 != 9)#T
+print(True and (True or False))#T
+print(not True or (True and False))#F
+print(False == False)#T
